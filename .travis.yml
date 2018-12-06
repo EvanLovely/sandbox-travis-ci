@@ -5,7 +5,7 @@ node_js:
 jobs:
   include:
     - stage: unit tests
-      script: echo one
+      script: echo one && npm run build && npm run build > say.txt
     - stage: unit tests
       script: echo two
     - stage: deploy to staging

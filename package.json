@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cowsay 'build ran!'",
     "test": "echo \"Fake test passed!\""
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/EvanLovely/sandbox-travis-ci/issues"
   },
-  "homepage": "https://github.com/EvanLovely/sandbox-travis-ci#readme"
+  "homepage": "https://github.com/EvanLovely/sandbox-travis-ci#readme",
+  "dependencies": {
+    "cowsay": "^1.3.1"
+  }
 }
